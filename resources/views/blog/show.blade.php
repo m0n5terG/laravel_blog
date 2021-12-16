@@ -9,6 +9,10 @@
     </div>
 </div>
 
+<div class="card-img p-20 w-90">
+    <img src="{{ asset('images/' . $post->image_path) }}" alt="">
+</div>
+
 <div class="w-4/5 m-auto pt-20">
     <span class="text-gray-500">
         By <span class="font-bold italic text-gray-800">
